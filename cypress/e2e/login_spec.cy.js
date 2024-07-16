@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 describe('Login Page', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:3001'); 
+      cy.visit('https://amorserv-qa.vercel.app/'); 
     });
   
     it('should log in successfully with valid credentials', () => {
