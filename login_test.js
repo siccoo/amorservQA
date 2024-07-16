@@ -29,7 +29,7 @@ describe("Login Page", function () {
    * Test case for successful login with valid credentials.
    */
   it("should log in successfully with valid credentials", async function () {
-    await browser.findElement(By.cssSelector("#username")).sendKeys("admin");
+    await browser.findElement(By.css("#username")).sendKeys("admin");
     await browser.findElement(By.css("#password")).sendKeys("admin");
     await browser.findElement(By.css("#loginButton")).click();
     await browser.wait(
