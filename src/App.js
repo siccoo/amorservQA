@@ -7,7 +7,7 @@ function App() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleLogin = () => {
-    if (username === "admin" && password === "admin") {
+    if (username === "chilakamichael001@gmail.com" && password === "admin123") {
       setErrorMessage("");
       alert("Login successful");
     } else {
