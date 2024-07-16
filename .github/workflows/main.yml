@@ -28,3 +28,6 @@ jobs:
 
       - name: Run Cypress tests
         run: npx cypress run
+
+      - name: Run Selenium tests
+        run: npm run s-test
